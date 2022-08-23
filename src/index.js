@@ -22,7 +22,7 @@ function formatDate(date) {
 }
 
 function search(event) {
-  event.preventdefault();
+  event.preventDefault();
   let cityElement = document.querySelector("#city");
   let cityInput = document.querySelector("#city-input");
   cityElement.innerHTML = cityInput.value;
